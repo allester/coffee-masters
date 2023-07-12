@@ -1,0 +1,17 @@
+.checkout {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+        "header header"
+        "items  name"
+        "items  payment"
+        "footer footer";
+}
+
+.brand-header {
+    display: flex;
+    align-items: center;
+    background-color: saddlebrown;
+    padding: 10px;
+    align-content: center;
+}
